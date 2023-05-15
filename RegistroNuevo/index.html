@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles.css">
+    <title>Registrese</title>
+</head>
+<body>
+    <main>
+        <section>
+            <div class="form_next">
+                <div class="form_text">
+                    <h1><b>Tropi-Info</b></h1>
+                    <h2>Registrese</h2>
+                    <form action="usuarios/registro/guardar" class="lista" id="formulario" method="post">
+                        <div class="datos_box">
+                            <ion-icon name="pin-outline"></ion-icon>
+                            <input type="text" id="Nombre" >
+                            <label for=""><b>Nombres:</b></label>
+                        </div>
+                        <div class="datos_box">
+                            <ion-icon name="document-outline"></ion-icon>
+                            <input type="text" id="Apellido" >
+                            <label for=""><b>Apellidos:</b></label>
+                        
+                        </div>
+                        <div class="datos_box">
+                            <ion-icon name="mail-outline"></ion-icon>
+                            <input type="email" id="Correo" >
+                            <label for=""><b>Correo Electronico:</b></label>
+                        </div>
+                        <div class="datos_box">
+                            <ion-icon name="lock-closed-outline"></ion-icon>
+                            <input type="password" id="Contraseña" >
+                            <label for=""><b>Contraseña:</b></label>
+                        </div>                            
+                        <div class="datos_box">
+                            <ion-icon name="calendar-outline"></ion-icon>
+                            <input type="datetime-local" id="Nacimiento" >
+                            <label for=""><b>Fecha de Nacimiento:</b></label>
+
+                        </div>
+                        <div class="datos_box">
+                            <ion-icon name="transgender-outline"></ion-icon>
+                            <input type="text" id="Genero" >
+                            <label for=""><b>Genero:</b></label>
+                        </div>
+                        <div class="datos_box">
+                            <ion-icon name="call-outline"></ion-icon>
+                            <input type="number" id="Telefono" >
+                            <label for=""><b>Numero de Celular:</b></label>
+                        </div>
+                        
+        
+                        <button  type="submit" id="boton" value="Enviar">Enviar</button>
+                    
+                        
+                    </form>
+                    <div id="error" class="oculto">
+                        <p>Faltan campos por llenar . Por favor complete todos los campos antes de enviar el formulario.</p>
+                        <button id="cerrar">X</button>
+                      </div>
+                   
+                </div>
+            </div>
+        </section>z
+    </main>
+      
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script src="funcionalidad.js"></script>
+
+</body>
+    
+</html>

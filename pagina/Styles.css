@@ -1,0 +1,47 @@
+:root {
+    --primary: rgb(127, 197, 203);
+    --light:#ffff;
+    --grey:#efefef;
+
+
+  }
+
+body{
+    overflow: hidden;
+    font-family: 'Muli' 'sans serif';
+    font-weight: 300;
+    color: var(--primary);
+    position:static;
+  }
+
+#sidebar-conteiner{
+    min-height: 100vh;
+}
+#sidebar-conteiner .logo{
+    padding: .875rem 1.25rem;
+}
+#sidebar-conteiner .Menu{
+    width: 18rem;
+}
+.bg-primary{
+    background-color: var(--primary)!important;
+    
+}
+
+.Menu a{
+    text-decoration: none;
+    
+}
+a:hover{
+    font-size: 111%;
+    background-color: black;
+    border-radius: 10px;
+    
+}
+.Collor{
+    background-color: black;
+}
+
+.Texto{
+    margin-left: 3%;
+}
